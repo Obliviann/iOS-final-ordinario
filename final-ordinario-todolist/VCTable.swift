@@ -12,18 +12,40 @@ import FirebaseAuth
 class VCTable: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
+    //@IBOutlet weak var tVCell: TableViewCell!     outlets cannot be references to repeated content - tvc elem already connectet to TVC class
     
     var usr:User?
     
+//create TableView obj and set requirements
+//    func instantiateUITV() -> UITableView {
+//        //let tableV: UITableView = {
+//            let tableView = UITableView()
+//            tableView.backgroundColor = UIColor.white
+//            tableView.translatesAutoresizingMaskIntoConstraints = false
+//            return tableView
+//        //}
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+//        tableView?.delegate = self
+//        tableView?.dataSource = self
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    //conform to UITableViewDelegate ans UITableViewDataSource
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5 //vs 17?
+    }
+    //Create a tableViewCell to populate the screen
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell : UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cellId")!
+        return cell
     }
     
     @IBAction func logOut(_ sender: UIButton) {
