@@ -20,6 +20,7 @@
 		EFAEFCC924068E2000037790 /* VCTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAEFCC824068E2000037790 /* VCTable.swift */; };
 		EFF51A1924069CE500606BDF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFF51A1824069CE500606BDF /* GoogleService-Info.plist */; };
 		EFF51A1B2406A7CA00606BDF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF51A1A2406A7CA00606BDF /* TableViewCell.swift */; };
+		EFF51A1D2406AE7F00606BDF /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF51A1C2406AE7F00606BDF /* CoreDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		EFAEFCC824068E2000037790 /* VCTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTable.swift; sourceTree = "<group>"; };
 		EFF51A1824069CE500606BDF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EFF51A1A2406A7CA00606BDF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EFF51A1C2406AE7F00606BDF /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				EF26842224067C2B005F49DC /* final_ordinario_todolist.xcdatamodeld */,
 				EFAEFCC824068E2000037790 /* VCTable.swift */,
 				EFF51A1A2406A7CA00606BDF /* TableViewCell.swift */,
+				EFF51A1C2406AE7F00606BDF /* CoreDataService.swift */,
 			);
 			path = "final-ordinario-todolist";
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				EF26842424067C2B005F49DC /* final_ordinario_todolist.xcdatamodeld in Sources */,
 				EFAEFCC924068E2000037790 /* VCTable.swift in Sources */,
 				EF26841E24067C2B005F49DC /* ViewController.swift in Sources */,
+				EFF51A1D2406AE7F00606BDF /* CoreDataService.swift in Sources */,
 				EF26841C24067C2B005F49DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
