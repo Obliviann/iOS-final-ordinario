@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1075645488228-raj1ok38hogu8uvlbmdl4oofp5oh1ssd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1075645488228-raj1ok38hogu8uvlbmdl4oofp5oh1ssd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBFGD-5Odoau6hu0DwpzflUaxvDN7fB7E0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1075645488228</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>osf.final-ordinario-todolist</string>
+	<key>PROJECT_ID</key>
+	<string>final-ordinario-todolist</string>
+	<key>STORAGE_BUCKET</key>
+	<string>final-ordinario-todolist.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1075645488228:ios:2de42d16bf380155361371</string>
+	<key>DATABASE_URL</key>
+	<string>https://final-ordinario-todolist.firebaseio.com</string>
+</dict>
+</plist>

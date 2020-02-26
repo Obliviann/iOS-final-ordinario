@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D77649BD00C32D7CF7286576 /* Pods_final_ordinario_todolist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677C917ABE7407384DF01913 /* Pods_final_ordinario_todolist.framework */; };
 		EF26841C24067C2B005F49DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26841B24067C2B005F49DC /* AppDelegate.swift */; };
 		EF26841E24067C2B005F49DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26841D24067C2B005F49DC /* ViewController.swift */; };
 		EF26842124067C2B005F49DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF26841F24067C2B005F49DC /* Main.storyboard */; };
 		EF26842424067C2B005F49DC /* final_ordinario_todolist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF26842224067C2B005F49DC /* final_ordinario_todolist.xcdatamodeld */; };
 		EF26842624067C35005F49DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF26842524067C35005F49DC /* Assets.xcassets */; };
 		EF26842924067C35005F49DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF26842724067C35005F49DC /* LaunchScreen.storyboard */; };
+		EF26843524068919005F49DC /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26843424068919005F49DC /* SignUpVC.swift */; };
+		EF26843A24068933005F49DC /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF2684362406892C005F49DC /* GoogleService-Info-2.plist */; };
+		EF26843B24068933005F49DC /* DataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2684372406892F005F49DC /* DataHolder.swift */; };
+		EF26843C24068933005F49DC /* final_ordinario_todolist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF26843824068931005F49DC /* final_ordinario_todolist.xcdatamodeld */; };
+		EFAEFCC924068E2000037790 /* VCTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAEFCC824068E2000037790 /* VCTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32BD4F62B51A2A0C69CCC359 /* Pods-final-ordinario-todolist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-ordinario-todolist.release.xcconfig"; path = "Pods/Target Support Files/Pods-final-ordinario-todolist/Pods-final-ordinario-todolist.release.xcconfig"; sourceTree = "<group>"; };
+		677C917ABE7407384DF01913 /* Pods_final_ordinario_todolist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_final_ordinario_todolist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53251A4DB596E57B20D697C /* Pods-final-ordinario-todolist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-ordinario-todolist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-final-ordinario-todolist/Pods-final-ordinario-todolist.debug.xcconfig"; sourceTree = "<group>"; };
 		EF26841824067C2B005F49DC /* final-ordinario-todolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "final-ordinario-todolist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF26841B24067C2B005F49DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF26841D24067C2B005F49DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +33,11 @@
 		EF26842524067C35005F49DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF26842824067C35005F49DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF26842A24067C35005F49DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF26843424068919005F49DC /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		EF2684362406892C005F49DC /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		EF2684372406892F005F49DC /* DataHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHolder.swift; sourceTree = "<group>"; };
+		EF26843924068931005F49DC /* final_ordinario_todolist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = final_ordinario_todolist.xcdatamodel; sourceTree = "<group>"; };
+		EFAEFCC824068E2000037790 /* VCTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D77649BD00C32D7CF7286576 /* Pods_final_ordinario_todolist.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA51844EE64F487B9618F616 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E53251A4DB596E57B20D697C /* Pods-final-ordinario-todolist.debug.xcconfig */,
+				32BD4F62B51A2A0C69CCC359 /* Pods-final-ordinario-todolist.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDBB5C9EC941B61CFF8CC450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				677C917ABE7407384DF01913 /* Pods_final_ordinario_todolist.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF26840F24067C2B005F49DC = {
 			isa = PBXGroup;
 			children = (
 				EF26841A24067C2B005F49DC /* final-ordinario-todolist */,
 				EF26841924067C2B005F49DC /* Products */,
+				AA51844EE64F487B9618F616 /* Pods */,
+				CDBB5C9EC941B61CFF8CC450 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +90,10 @@
 		EF26841A24067C2B005F49DC /* final-ordinario-todolist */ = {
 			isa = PBXGroup;
 			children = (
+				EF2684372406892F005F49DC /* DataHolder.swift */,
+				EF26843824068931005F49DC /* final_ordinario_todolist.xcdatamodeld */,
+				EF2684362406892C005F49DC /* GoogleService-Info-2.plist */,
+				EF26843424068919005F49DC /* SignUpVC.swift */,
 				EF26841B24067C2B005F49DC /* AppDelegate.swift */,
 				EF26841D24067C2B005F49DC /* ViewController.swift */,
 				EF26841F24067C2B005F49DC /* Main.storyboard */,
@@ -63,6 +101,7 @@
 				EF26842724067C35005F49DC /* LaunchScreen.storyboard */,
 				EF26842A24067C35005F49DC /* Info.plist */,
 				EF26842224067C2B005F49DC /* final_ordinario_todolist.xcdatamodeld */,
+				EFAEFCC824068E2000037790 /* VCTable.swift */,
 			);
 			path = "final-ordinario-todolist";
 			sourceTree = "<group>";
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF26842D24067C35005F49DC /* Build configuration list for PBXNativeTarget "final-ordinario-todolist" */;
 			buildPhases = (
+				6D6AE2812216CEBD52D1E177 /* [CP] Check Pods Manifest.lock */,
 				EF26841424067C2B005F49DC /* Sources */,
 				EF26841524067C2B005F49DC /* Frameworks */,
 				EF26841624067C2B005F49DC /* Resources */,
+				53512890961616CF54D5A71B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +168,64 @@
 			files = (
 				EF26842924067C35005F49DC /* LaunchScreen.storyboard in Resources */,
 				EF26842624067C35005F49DC /* Assets.xcassets in Resources */,
+				EF26843A24068933005F49DC /* GoogleService-Info-2.plist in Resources */,
 				EF26842124067C2B005F49DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53512890961616CF54D5A71B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-final-ordinario-todolist/Pods-final-ordinario-todolist-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-final-ordinario-todolist/Pods-final-ordinario-todolist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D6AE2812216CEBD52D1E177 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-final-ordinario-todolist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF26841424067C2B005F49DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF26843C24068933005F49DC /* final_ordinario_todolist.xcdatamodeld in Sources */,
+				EF26843524068919005F49DC /* SignUpVC.swift in Sources */,
+				EF26843B24068933005F49DC /* DataHolder.swift in Sources */,
 				EF26842424067C2B005F49DC /* final_ordinario_todolist.xcdatamodeld in Sources */,
+				EFAEFCC924068E2000037790 /* VCTable.swift in Sources */,
 				EF26841E24067C2B005F49DC /* ViewController.swift in Sources */,
 				EF26841C24067C2B005F49DC /* AppDelegate.swift in Sources */,
 			);
@@ -282,6 +369,7 @@
 		};
 		EF26842E24067C35005F49DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E53251A4DB596E57B20D697C /* Pods-final-ordinario-todolist.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +387,7 @@
 		};
 		EF26842F24067C35005F49DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32BD4F62B51A2A0C69CCC359 /* Pods-final-ordinario-todolist.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -344,6 +433,16 @@
 				EF26842324067C2B005F49DC /* final_ordinario_todolist.xcdatamodel */,
 			);
 			currentVersion = EF26842324067C2B005F49DC /* final_ordinario_todolist.xcdatamodel */;
+			path = final_ordinario_todolist.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		EF26843824068931005F49DC /* final_ordinario_todolist.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF26843924068931005F49DC /* final_ordinario_todolist.xcdatamodel */,
+			);
+			currentVersion = EF26843924068931005F49DC /* final_ordinario_todolist.xcdatamodel */;
 			path = final_ordinario_todolist.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

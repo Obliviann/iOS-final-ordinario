@@ -1,5 +1,5 @@
 //
-//  SignUpVC.swift
+//  VCTable.swift
 //  final-ordinario-todolist
 //
 //  Created by Olivia Sartorius Freschet on 26/2/20.
@@ -7,13 +7,10 @@
 //
 
 import UIKit
-import Firebase
 
-class SignUpVC: UIViewController {
+class VCTable: UIViewController {
 
-    @IBOutlet weak var newMail: UITextField!
-    @IBOutlet weak var newPass: UITextField!
-    @IBOutlet weak var repeatPass: UITextField!
+    @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,8 +24,6 @@ class SignUpVC: UIViewController {
     }
     
 
-    @IBAction func signup(_ sender: Any) {
-    }
     /*
     // MARK: - Navigation
 
