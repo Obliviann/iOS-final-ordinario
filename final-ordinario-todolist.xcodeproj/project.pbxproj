@@ -15,10 +15,10 @@
 		EF26842624067C35005F49DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF26842524067C35005F49DC /* Assets.xcassets */; };
 		EF26842924067C35005F49DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF26842724067C35005F49DC /* LaunchScreen.storyboard */; };
 		EF26843524068919005F49DC /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26843424068919005F49DC /* SignUpVC.swift */; };
-		EF26843A24068933005F49DC /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF2684362406892C005F49DC /* GoogleService-Info-2.plist */; };
 		EF26843B24068933005F49DC /* DataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2684372406892F005F49DC /* DataHolder.swift */; };
 		EF26843C24068933005F49DC /* final_ordinario_todolist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF26843824068931005F49DC /* final_ordinario_todolist.xcdatamodeld */; };
 		EFAEFCC924068E2000037790 /* VCTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAEFCC824068E2000037790 /* VCTable.swift */; };
+		EFF51A1924069CE500606BDF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFF51A1824069CE500606BDF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +34,10 @@
 		EF26842824067C35005F49DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF26842A24067C35005F49DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF26843424068919005F49DC /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
-		EF2684362406892C005F49DC /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		EF2684372406892F005F49DC /* DataHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHolder.swift; sourceTree = "<group>"; };
 		EF26843924068931005F49DC /* final_ordinario_todolist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = final_ordinario_todolist.xcdatamodel; sourceTree = "<group>"; };
 		EFAEFCC824068E2000037790 /* VCTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTable.swift; sourceTree = "<group>"; };
+		EFF51A1824069CE500606BDF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,9 +90,9 @@
 		EF26841A24067C2B005F49DC /* final-ordinario-todolist */ = {
 			isa = PBXGroup;
 			children = (
+				EFF51A1824069CE500606BDF /* GoogleService-Info.plist */,
 				EF2684372406892F005F49DC /* DataHolder.swift */,
 				EF26843824068931005F49DC /* final_ordinario_todolist.xcdatamodeld */,
-				EF2684362406892C005F49DC /* GoogleService-Info-2.plist */,
 				EF26843424068919005F49DC /* SignUpVC.swift */,
 				EF26841B24067C2B005F49DC /* AppDelegate.swift */,
 				EF26841D24067C2B005F49DC /* ViewController.swift */,
@@ -168,7 +168,7 @@
 			files = (
 				EF26842924067C35005F49DC /* LaunchScreen.storyboard in Resources */,
 				EF26842624067C35005F49DC /* Assets.xcassets in Resources */,
-				EF26843A24068933005F49DC /* GoogleService-Info-2.plist in Resources */,
+				EFF51A1924069CE500606BDF /* GoogleService-Info.plist in Resources */,
 				EF26842124067C2B005F49DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,11 +183,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-final-ordinario-todolist/Pods-final-ordinario-todolist-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -373,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "final-ordinario-todolist/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -381,7 +384,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "osf.final-ordinario-todolist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -391,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "final-ordinario-todolist/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -399,7 +403,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "osf.final-ordinario-todolist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

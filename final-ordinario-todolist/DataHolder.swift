@@ -8,15 +8,23 @@
 
 import UIKit
 import Firebase
-
+import FirebaseAuth
 
 class DataHolder: NSObject {
     
     static let sharedInstance:DataHolder = DataHolder()
     
+    var firUser: User?
+    
     func initFirebase() {
         FirebaseApp.configure()
+        
+        Auth.auth().addStateDidChangeListener {(auth, user) in
+            print("listener called")
+            if let usr = user {
+                DataHolder.sharedInstance.firUser = usr
+            }
+        }
     }
     
-
 }

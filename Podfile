@@ -6,6 +6,7 @@ target 'final-ordinario-todolist' do
   use_frameworks!
 
   # Pods for final-ordinario-todolist
- pod 'Firebase' 
+ pod 'Firebase'
+ pod 'Firebase/Auth'
 
 end
